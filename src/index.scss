@@ -125,3 +125,34 @@ main {
     }
   }
 }
+.containerrr{
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.one{
+  width: 32%;
+  display: inline-block;
+  border-right: 1px solid #777;
+}
+
+.two{
+  width: 32%;
+  display: inline-block;
+  border-right: 1px solid #777;
+}
+
+.three{
+  width: 34%;
+  display: inline-block
+}
+
+.data{
+  font-size: 3em;
+  color: rgba(211, 136, 51, 0.808);
+  padding:10px 0;
+}
+
+.info{
+  color: rgb(124, 85, 40);
+}

@@ -4,27 +4,16 @@ import Shelf from '../Shelf';
 import Filter from '../Shelf/Filter';
 import Exchange from '../exchange'
 import FloatCart from '../FloatCart';
-
+import Svgbg from '../svgbackground'
+import Trade from '../trade'
+import Btcchart from '../bitchart'
 const Landing = () => (
   <React.Fragment>
-    <main>
-     <Exchange/>
-    </main>
-   <div className='threecompartment'>
-     <div className='producttab'>GIVE
-     <div>BTC</div>
-     <div>ETH</div>
-     <div>PAYPAL</div>
-     <div>PERFECT MONEY</div>
-     </div>
-     <div className='producttab'>GET
-     <div >BTC</div>
-     <div>ETH</div>
-     <div>PAYPAL</div>
-     <div>PERFECT MONEY</div>
-     </div>
-     <div className='transactiontab'>transaction</div>
-   </div>
+<Svgbg/>
+    
+    
+    <Btcchart/>
+    <Trade />
   </React.Fragment>
 );
 

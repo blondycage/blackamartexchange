@@ -1,0 +1,46 @@
+.tradecontainer{
+display: flex;
+flex-direction: column;
+
+align-items: center ;
+margin-top: 10px;
+text-align: center;
+font-weight: bold;
+}
+.uppertradesection{
+display: flex;
+margin: 30px;
+
+
+}
+.giveselector{
+    min-width: 400px;
+  border-radius: 10px;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #222222 74%);
+margin-right: 10px;
+color: white;
+}
+
+.getselector{
+    min-width: 400px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%,  #222222 74%);
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+
+}
+.giveform{
+  
+    text-align: center;
+min-height: 300px;
+min-width: 450px;
+border: 1px solid black;
+margin: 0 auto;
+}
+
+.giveform div:after{
+    content: ' transaction details coming soon!';
+    color: red;
+}
