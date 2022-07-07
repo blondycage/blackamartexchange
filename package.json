@@ -28,7 +28,7 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "chart.js": "^2.7.2",
-    "moment": "2.22.2",
+    "moment": "2.29.4",
     "react-chartjs-2": "^2.1.0",
     "semantic-ui-react": "^0.88.2",
     "styled-components": "^5.0.1"
